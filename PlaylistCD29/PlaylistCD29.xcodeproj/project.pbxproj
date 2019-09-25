@@ -20,6 +20,8 @@
 		FB70D6DE233BDC8100869B17 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70D6DD233BDC8100869B17 /* Song+Convenience.swift */; };
 		FB70D6E1233BDF8100869B17 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70D6E0233BDF8100869B17 /* PlaylistController.swift */; };
 		FB91F0C8233BE67300072A9B /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91F0C7233BE67300072A9B /* SongController.swift */; };
+		FB91F0CA233BE97300072A9B /* PlaylistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91F0C9233BE97300072A9B /* PlaylistListTableViewController.swift */; };
+		FBBDBA1E233BEE2900F7A7F0 /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBDBA1D233BEE2900F7A7F0 /* SongListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		FB70D6DD233BDC8100869B17 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		FB70D6E0233BDF8100869B17 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 		FB91F0C7233BE67300072A9B /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		FB91F0C9233BE97300072A9B /* PlaylistListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListTableViewController.swift; sourceTree = "<group>"; };
+		FBBDBA1D233BEE2900F7A7F0 /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +75,9 @@
 		FB22C77F233BCF4100491985 /* PlaylistCD29 */ = {
 			isa = PBXGroup;
 			children = (
-				FB70D6E0233BDF8100869B17 /* PlaylistController.swift */,
-				FB91F0C7233BE67300072A9B /* SongController.swift */,
+				FB91F0C9233BE97300072A9B /* PlaylistListTableViewController.swift */,
+				FBBDBA1D233BEE2900F7A7F0 /* SongListTableViewController.swift */,
+				FB91F0CB233BE97B00072A9B /* Model Controllers */,
 				FB70D6DF233BDF4800869B17 /* Model */,
 				FB22C797233BD01500491985 /* Supporting Files */,
 				FB22C784233BCF4100491985 /* ViewController.swift */,
@@ -102,6 +107,15 @@
 				FB70D6DD233BDC8100869B17 /* Song+Convenience.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FB91F0CB233BE97B00072A9B /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB70D6E0233BDF8100869B17 /* PlaylistController.swift */,
+				FB91F0C7233BE67300072A9B /* SongController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +195,10 @@
 				FB70D6E1233BDF8100869B17 /* PlaylistController.swift in Sources */,
 				FB22C785233BCF4100491985 /* ViewController.swift in Sources */,
 				FB22C78B233BCF4100491985 /* PlaylistCD29.xcdatamodeld in Sources */,
+				FBBDBA1E233BEE2900F7A7F0 /* SongListTableViewController.swift in Sources */,
 				FB22C781233BCF4100491985 /* AppDelegate.swift in Sources */,
 				FB22C783233BCF4100491985 /* SceneDelegate.swift in Sources */,
+				FB91F0CA233BE97300072A9B /* PlaylistListTableViewController.swift in Sources */,
 				FB70D6DC233BDAE500869B17 /* Playlist+Convenience.swift in Sources */,
 				FB70D6DE233BDC8100869B17 /* Song+Convenience.swift in Sources */,
 			);
