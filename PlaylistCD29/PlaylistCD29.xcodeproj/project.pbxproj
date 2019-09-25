@@ -19,6 +19,7 @@
 		FB70D6DC233BDAE500869B17 /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70D6DB233BDAE500869B17 /* Playlist+Convenience.swift */; };
 		FB70D6DE233BDC8100869B17 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70D6DD233BDC8100869B17 /* Song+Convenience.swift */; };
 		FB70D6E1233BDF8100869B17 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70D6E0233BDF8100869B17 /* PlaylistController.swift */; };
+		FB91F0C8233BE67300072A9B /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91F0C7233BE67300072A9B /* SongController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FB70D6DB233BDAE500869B17 /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		FB70D6DD233BDC8100869B17 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 		FB70D6E0233BDF8100869B17 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		FB91F0C7233BE67300072A9B /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				FB70D6E0233BDF8100869B17 /* PlaylistController.swift */,
+				FB91F0C7233BE67300072A9B /* SongController.swift */,
 				FB70D6DF233BDF4800869B17 /* Model */,
 				FB22C797233BD01500491985 /* Supporting Files */,
 				FB22C784233BCF4100491985 /* ViewController.swift */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB91F0C8233BE67300072A9B /* SongController.swift in Sources */,
 				FB70D6DA233BD88100869B17 /* CoreDataStack.swift in Sources */,
 				FB70D6E1233BDF8100869B17 /* PlaylistController.swift in Sources */,
 				FB22C785233BCF4100491985 /* ViewController.swift in Sources */,
